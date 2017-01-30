@@ -169,7 +169,7 @@ function bot_run()
 
 	bot = bot.result
 
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.."\nDeveloper > @MehdiHS\nChannel > @Black_CH"
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.."\nDeveloper > @Lv_t_m\nChannel > @Senator_tea"
 	print(bot_info)
 
 	last_update = last_update or 0
@@ -311,7 +311,7 @@ if msg then
 	sendMessage(msg.chat.id,list,true,nil,true)
 	
 	elseif msg.text:match("^/version") then
-	sendMessage(msg.chat.id,'*pm resan Bot*\n\n_Developer_ > [Mehran](https://telegram.me/sudo_tokhs_telegram)\n[My Channel](https://telegram.me/plugins_free)\n\n _Bot Version_ : *4*',true,nil,true)
+	sendMessage(msg.chat.id,'*pm resan Bot*\n\n_Developer_ > [Lv_t_m](https://telegram.me/Lv_t_m)\n[My Channel](https://telegram.me/Senator_tea)\n\n _Bot Version_ : *4*',true,nil,true)
 	
     elseif msg.text:match("^/help") and not is_admin(msg) then
 	sendMessage(msg.chat.id,'*Black Support Bot Help:*\n\n\n `-` /version\n`نمایش ورژن ربات`\n\n `-` /plist\n`دریافت لیست قیمت ها برای‌خرید گروه`\n\n `-` /start\n`دریافت اطلاعاتی درباره خرید گروه`',true,nil,true)
@@ -327,7 +327,7 @@ if msg then
       end 
        sendMessage(msg.chat.id,'Done.',true,nil,true)
     elseif msg.text:match("^/nerkh") or msg.text:match("^/plist") or msg.text:match("^/planlist") then
-	sendMessage(msg.chat.id,'*لیست قیمت های خرید گروه با* [best group](https://telegram.me/bestgroup_tg)\n\n `-` *1 ماهه* > `5000` _تومان_\n `-` *3 ماهه* > `10000` _تومان_\n `-` *نامحدود* > `20000` _تومان_ ',true,nil,true)
+	sendMessage(msg.chat.id,'*لیست قیمت های خرید گروه با* [best group](https://telegram.me/Senator_tea)\n\n `-` *1 ماهه* > `5000` _تومان_\n `-` *3 ماهه* > `10000` _تومان_\n `-` *نامحدود* > `20000` _تومان_ ',true,nil,true)
 	elseif msg.text:match("^/clean blocklist") and is_admin(msg) then
 	sendMessage(msg.chat.id,'لیستتتت افراد بلاک شده با موفقیت خالی شد.',true,nil,true)
 	redis:del('pmrsn:blocksa')
