@@ -14,7 +14,7 @@
 #libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 
-#git clone hhttps://github.com/mehmehran/pmresan.git
+#git clone 
 
 #cd pmresan
 
@@ -43,5 +43,5 @@
 تمام):
 
 * * * * * * * * * * * * * * * * * * * * * * * *
- Developer > [mehran](https://Telegram.me/sudo_tokhs_telegram) | 
- [Channel](https://Telegram.me/plugin_free)
+ Developer > [senator](https://Telegram.me/Lv_t_m) | 
+ [Channel](https://Telegram.me/Senator_tea)
